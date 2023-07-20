@@ -1,0 +1,69 @@
+/* .head {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    /* align-items: center; Vertically center content */
+    /* Additional styles for the container */
+    /* height: 85vh; Set the container height to full viewport height */
+    /* background-color: #f8b3b3; Optional background color for visualization */
+  /* }   
+  */ 
+.reg-form{
+    color: blue;
+    font-style: italic;
+    background-color: beige;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.div-form{
+    color: red;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border-width: 10px;
+    border: black;
+    background-image: linear-gradient(to right, #f75454, #85f885, #a7a7f5,#a79595);
+}
+.head-button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 20px;
+    border-width: 10px;
+    background-image: linear-gradient(to right, #f75454, #85f885, #a7a7f5,#a79595);
+}
+.custom-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #ff0000, #00ff00, #0000ff);
+    /* background-color: rgb(112, 240, 133); */
+}
+.custom-form a {
+    margin-bottom: 5px;
+  }
+
+  .custom-form input  {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+.gender-form{
+    color: black;
+}
+.form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-custom{
+    background-color: rgb(184, 120, 243);
+}
+.navbar-brand{
+    color: rgb(240, 45, 45);
+}
+.nav-link{
+  color: rgb(146, 81, 207);
+}
