@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-
+import Navbar from './components/Navbar'
 
 import './App.css'
 // window.location.href = 'https://www.google.com'; // Redirect to google.com
@@ -7,6 +7,7 @@ import './App.css'
 function App(){
   const [data,setData]=useState("Pranjal");
   const [home,setHome]=useState(false);
+ 
   
   function ClickSearch(){
     alert("Fill the registration form")
@@ -28,10 +29,9 @@ function ResetData(){
 }
   return(
         <>
-       
-       <nav className="navbar navbar-expand-lg navbar-light bg-dark"   >
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark"   >
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"  >  Navbar</a>
+    <a className="navbar-brand" href="#"  >Navbar</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -65,6 +65,7 @@ function ResetData(){
     </div>
   </div>
 </nav>
+<Navbar/>
 
 <div className="head-button" >
 <h1 className="head">Hello {data} </h1>
@@ -86,12 +87,11 @@ function ResetData(){
     <li className='gender-form' >female <input className='form-gender-female' type='radio'/></li>
     <li className='gender-form' >Others <input className='form-gender-others' type='radio'/></li>
   </ul>
-
   <button className='form-submit' type='submit' >Submit</button>
    </div>
   </form>
    </>
-    )   
+    ) 
 }
 export default App;
 
